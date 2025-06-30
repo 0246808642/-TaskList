@@ -1,16 +1,40 @@
-# projects_flutter
+# 📱 Task List - Projeto Flutter (Estudos)
 
-Meu primeiro projeto
+Este repositório contém um projeto desenvolvido com Flutter com o objetivo de praticar os fundamentos da criação de interfaces e componentes reutilizáveis. Trata-se de uma tela inicial simples, que simula uma lista de tarefas com interação básica, como parte do meu aprendizado na tecnologia Flutter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Objetivo
 
-A few resources to get you started if this is your first Flutter project:
+Este projeto foi criado **exclusivamente para fins de estudo e prática** dos conceitos essenciais do Flutter, como:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Criação e estruturação de telas com `Scaffold`
+- Montagem de layout com `Column`, `Row`, `Container` e `ListView`
+- Gerenciamento de estado com `StatefulWidget` e `setState`
+- Componentização de widgets personalizados
+- Estilização básica de elementos visuais (cores, fontes, alinhamento)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Funcionalidades
+
+- Exibe uma lista de tarefas (como "Aprender Flutter")
+- Cada item contém um botão interativo que incrementa um contador
+- Interface organizada com ícones, texto e botão "UP"
+- Layout limpo e adaptável a diferentes tamanhos de tela
+
+---
+
+## 🔧 Tecnologias
+
+- **Flutter** (com Dart)
+- **Widgets principais:** `Scaffold`, `AppBar`, `ListView`, `Container`, `Text`, `Icon`, `ElevatedButton`, `StatefulWidget`
+
+---
+
+## 📁 Estrutura
+
+```shell
+/lib
+ ┣ main.dart              # Inicialização do app
+ ┗ initial_screen.dart    # Tela principal com a lista de tarefas
